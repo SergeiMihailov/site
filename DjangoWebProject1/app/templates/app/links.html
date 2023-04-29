@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head class="h2">
+    <meta charset="utf-8" />
+    <title>Полезные ресурсы</title>
+</head>
+
+
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<body>
+    <content class="h2">
+        {% load static %}
+
+    </content>
+    <div class="h2">
+    <a href="https://www.youtube.com/channel/UC4lbZC13zhJYz9DM4EvrU-A" target="_blank"> <img src="{% static 'app/content/youtube.png' %}" alt="Logo 1" /></a>
+    <a href="https://exist.ru/Forum/" target="_blank"> <img src="{% static 'app/content/2.png' %}" alt="Logo 2" /></a>
+    <a href="https://exist.ru/AutoPoints/" target="_blank"> <img src="{% static 'app/content/3.png' %}" alt="Logo 3" /></a>
+    </div>
+</body>
+{% endblock %}
+</html>
